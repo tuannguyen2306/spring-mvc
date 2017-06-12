@@ -25,6 +25,6 @@ public class UserController {
     @RequestMapping(value = "/result")
     public String processUser(User user) {
         // Handle user here (e.g. save to DB)
-        return "formregistration/userResult";
+        return "formregistration/userResult";// address return
     }
 }
